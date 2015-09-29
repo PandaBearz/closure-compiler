@@ -1,0 +1,7 @@
+init: "function instr_call(fun_id){}"
+init: "function instr_exit(fun_id, return_value){return return_value;}"
+init: "function instr_defined(fun_id){}"
+report_call: "instr_call"
+report_exit: "instr_exit"
+report_defined: "instr_defined"
+
